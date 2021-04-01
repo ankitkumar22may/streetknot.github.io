@@ -31,6 +31,8 @@ body {
     padding: 10px 40px;
     background: #222121;
     color: #ffff;
+    z-index: 1;
+}
 }
 
 .toggle span a {
@@ -207,7 +209,8 @@ body {
 
 @media screen and (min-width: 800px) {
     #slider {
-    z-index: -1;
+        margin-top: 0px;
+        z-index: -1;
     }
     #slider figure {
         position: relative;
