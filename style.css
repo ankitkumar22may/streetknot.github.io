@@ -21,6 +21,7 @@ body {
 }
 
 .top-nav {
+    position:fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -101,7 +102,7 @@ body {
         position: sticky;
         top: 0;
         background: #ecf0f1;
-        margin-top: -16px;
+        margin-top: 70px;
         padding-left: 20px;
         transition: all 0.20s;
         z-index: 1;
@@ -112,6 +113,9 @@ body {
     #sidebar ul li {
        float: left;
        margin-top:1px;
+    }
+    #sidebar ul {
+        margin-top: -26px;
     }
     #sidebar ul li a {
         font-size: 0.8rem;
@@ -129,7 +133,7 @@ body {
 #slider {
     width: 100%;
     overflow: hidden;
-    margin-top: 0px;
+    margin-top: 44px;
     z-index: -1;
 }
 
